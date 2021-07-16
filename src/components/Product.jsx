@@ -3,7 +3,7 @@ import React from 'react';
 const Product = ({ product, handleAddToCart }) => {
   return (
     <div className="Products-item">
-      <img src={product.image} all={product.title}></img>
+      <img src={product.image} alt={product.title}></img>
       <div className="Product-item-info">
         <h2>
           {product.title}
